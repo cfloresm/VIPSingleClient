@@ -22,9 +22,9 @@
 					<sourceRoot>${project.build.directory}/generated/cxf</sourceRoot>
 					<wsdlOptions>
 						<wsdlOption>
-	 							<wsdl>${basedir}/src/main/resources/vipuserservices-query-1.1.wsdl</wsdl> 
-                                <wsdl>${basedir}/src/main/resources/vip_auth.wsdl</wsdl>
-	                            <wsdl>${basedir}/src/main/resources/vipuserservices-auth-1.1.wsdl</wsdl> 
+						<wsdl>${basedir}/src/main/resources/vipuserservices-query-1.1.wsdl</wsdl> 
+        		                        <wsdl>${basedir}/src/main/resources/vipuserservices-mgmt-1.1.wsdl</wsdl>
+	                	                <wsdl>${basedir}/src/main/resources/vipuserservices-auth-1.1.wsdl</wsdl> 
 						</wsdlOption>
 					</wsdlOptions>
 				</configuration>

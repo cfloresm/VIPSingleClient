@@ -38,7 +38,7 @@ public final class SingleClient {
     static final String query_wsdl = "vipuserservices-query-1.1.wsdl";
     static final String mgmt_wsdl = "vipuserservices-mgmt-1.1.wsdl";
     static final String auth_wsdl = "vipuserservices-auth-1.1.wsdl";
-    static String certFile = "/home/carlos/Workspace/VIPSingleClient/src/main/resources/vip_cert.p12";
+    static String certFile = "/home/carlos/git/VipSingleClient/VIPSingleClient/src/main/resources/vip_cert.p12";
     static String password = "s3cr37o123";
 
     private AuthenticationService authenticationService = null;    	
@@ -85,7 +85,7 @@ public final class SingleClient {
     
     }
     
-    private  void riskAutenticate() {
+    public  void riskAutenticate() {
     
     	AuthenticationServicePort authenticationPort = authenticationService.getAuthenticationServicePort();
     
